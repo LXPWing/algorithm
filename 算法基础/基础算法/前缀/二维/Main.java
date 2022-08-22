@@ -50,7 +50,7 @@ public class Main {
                 ans[i+1][j] = ans[i][j] + nums[i][j];
             }
         }
-        
+
         while(q-- != 0){
             int x1 = sc.nextInt();
             int y1 = sc.nextInt();
@@ -62,6 +62,5 @@ public class Main {
             }
             System.out.println(sum);
         }
-        
     }
 }
